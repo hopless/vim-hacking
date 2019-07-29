@@ -16,7 +16,9 @@ endfunction
 call EchoHello('test suite call')
 
 " Third example variable and function with optional args
-" and optional args 
+" and optional args and by poping the value from the optional 
+" args by using '000' token or poping the second value simply 
+" use 000[1] and a:1 equal to a:000[0]
 function! EchoHello(quote, ...) 
 	let year = a:1
 	let author = a:000[1]
