@@ -9,3 +9,5 @@ else
 	echo "I'm zero"
 endif
 
+" Ternary expression
+echo (number == 0) ? 'Equal to zero' : 'something else'
